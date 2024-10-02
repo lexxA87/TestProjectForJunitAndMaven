@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36004d80-2cd4-43c1-9509-31383ef0eb00" name="Changes" comment="Check adding Junit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NetworkUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vector2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MyMathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NetworkUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSomething1.java" beforeDir="false" />
+    <list default="true" id="36004d80-2cd4-43c1-9509-31383ef0eb00" name="Changes" comment="Added simple tests">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +55,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.NetworkUtilsTest.connectShouldReturnLessThanOneSecond">
+  <component name="RunManager" selected="JUnit.Vector2DTest">
     <configuration name="MyMathTest.dividerZeroShouldThrowArithmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestProjectForJunitAndMaven" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,10 +97,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NetworkUtilsTest.connectShouldReturnLessThanOneSecond" />
-        <item itemvalue="JUnit.MyMathTest.dividerZeroShouldThrowArithmeticException" />
         <item itemvalue="JUnit.Vector2DTest" />
         <item itemvalue="JUnit.Vector2DTest.getLengthShouldBeZero" />
+        <item itemvalue="JUnit.NetworkUtilsTest.connectShouldReturnLessThanOneSecond" />
+        <item itemvalue="JUnit.MyMathTest.dividerZeroShouldThrowArithmeticException" />
       </list>
     </recent_temporary>
   </component>
@@ -136,12 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727865880328</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added simple tests">
+      <option name="closed" value="true" />
+      <created>1727877493708</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727877493709</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Check adding Junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check adding Junit" />
+    <MESSAGE value="Added simple tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added simple tests" />
   </component>
 </project>
