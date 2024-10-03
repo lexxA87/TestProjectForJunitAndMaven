@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36004d80-2cd4-43c1-9509-31383ef0eb00" name="Changes" comment="Added simple tests">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" afterDir="false" />
+    <list default="true" id="36004d80-2cd4-43c1-9509-31383ef0eb00" name="Changes" comment="Refactored tests with BeforeClass">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AuthorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestReflection1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -22,21 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lexxA87"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lexxA87&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/lexxA87/TestProjectForJunitAndMaven.git",
-    "accountId": "535f40f6-b736-4290-8eb7-2320186f7ae5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lexxA87/TestProjectForJunitAndMaven.git&quot;,
+    &quot;accountId&quot;: &quot;535f40f6-b736-4290-8eb7-2320186f7ae5&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2msVaIMa4TmTnY0lB0QKNf8HhQk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TestReflection1.executor": "Run",
     "JUnit.MyMathTest.dividerZeroShouldThrowArithmeticException.executor": "Run",
     "JUnit.NetworkUtilsTest.connectShouldReturnLessThanOneSecond.executor": "Run",
     "JUnit.Vector2DTest.executor": "Run",
@@ -52,10 +57,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Vector2DTest">
+  <component name="RunManager">
     <configuration name="MyMathTest.dividerZeroShouldThrowArithmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestProjectForJunitAndMaven" />
       <option name="PACKAGE_NAME" value="" />
@@ -137,13 +143,22 @@
       <option name="project" value="LOCAL" />
       <updated>1727877493709</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactored tests with BeforeClass">
+      <option name="closed" value="true" />
+      <created>1727878788720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727878788720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Check adding Junit" />
     <MESSAGE value="Added simple tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added simple tests" />
+    <MESSAGE value="Refactored tests with BeforeClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored tests with BeforeClass" />
   </component>
 </project>
