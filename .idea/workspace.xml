@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36004d80-2cd4-43c1-9509-31383ef0eb00" name="Changes" comment="Refactored tests with BeforeClass">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AuthorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestReflection1.java" afterDir="false" />
+    <list default="true" id="36004d80-2cd4-43c1-9509-31383ef0eb00" name="Changes" comment="Added some classes for test of reflection and annotations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestReflection2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.TestReflection1.executor": "Run",
+    "Application.TestReflection2.executor": "Run",
     "JUnit.MyMathTest.dividerZeroShouldThrowArithmeticException.executor": "Run",
     "JUnit.NetworkUtilsTest.connectShouldReturnLessThanOneSecond.executor": "Run",
     "JUnit.Vector2DTest.executor": "Run",
@@ -151,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727878788720</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added some classes for test of reflection and annotations">
+      <option name="closed" value="true" />
+      <created>1727955370810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727955370810</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -159,6 +167,7 @@
     <MESSAGE value="Check adding Junit" />
     <MESSAGE value="Added simple tests" />
     <MESSAGE value="Refactored tests with BeforeClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored tests with BeforeClass" />
+    <MESSAGE value="Added some classes for test of reflection and annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some classes for test of reflection and annotations" />
   </component>
 </project>
